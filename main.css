@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+.main .sub {
+  height: 400px;
+  width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px hsl(241, 81%, 54%, 0.2) ;
+}
+
+/* left */
+.main .sub .ui1 {
+  height: 100%;
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.main .sub .ui1 .ui1-1 {
+  height: 85%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.main .sub .ui1 .ui1-1 .title { 
+  font-size: 20px;
+  color: hsl(221, 100%, 96%);
+}
+.main .sub .ui1 .ui1-1 .circle-re {
+  height: 140px;
+  width: 140px;
+  margin: 25px auto;
+  border-radius: 100%;
+  background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1) ,hsla(256, 72%, 46%, 1)) ;
+}
+.main .sub .ui1 .ui1-1 .circle-re .result1 p {
+  font-size: 50px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+}
+.main .sub .ui1 .ui1-1 .circle-re .result1 div {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(241, 100%, 89%);
+}
+.main .sub .ui1 .ui1-1 .result2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: hsl(0, 0%, 100%);
+}
+.main .sub .ui1 .ui1-1 .result3 {
+  width: 85%;
+  margin: auto;
+  font-size: 14px;
+  color: hsl(221, 100%, 96%);
+}
+
+/* right */
+.main .sub .ui2 {
+  height: 100%;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+}
+.main .sub .ui2 .ui2-1 {
+  height: 85%;
+  width: 80%;
+  margin: auto;
+}
+.main .sub .ui2 .ui2-1 .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.main .sub .ui2 .ui2-1 span.right {
+  margin-left: auto;
+  color: hsl(224, 30%, 27%);
+}
+
+.main .sub .ui2 .ui2-1 span.gray {
+  color: hsl(241, 100%, 89%);
+}
+.main .sub .ui2 .ui2-1 .point1 {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+.main .sub .ui2 .ui2-1 .point1 span.left {
+  color: hsl(0, 100%, 67%);
+}
+
+.main .sub .ui2 .ui2-1 .point2 {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+.main .sub .ui2 .ui2-1 .point2 span.left {
+  color: hsl(39, 100%, 56%);
+}
+.main .sub .ui2 .ui2-1 .point3 {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+.main .sub .ui2 .ui2-1 .point3 span.left {
+  color: hsl(166, 100%, 37%);
+}
+.main .sub .ui2 .ui2-1 .point4 {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
+.main .sub .ui2 .ui2-1 .point4 span.left {
+  color: hsl(234, 85%, 45%);
+}
+.main .sub .ui2 .ui2-1 .center .btn-con {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 25px;
+  font-weight: 700;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+.main .sub .ui2 .ui2-1 .center .btn-con:hover {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
